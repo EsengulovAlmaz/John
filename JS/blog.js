@@ -1,8 +1,8 @@
-const blog = document.querySelector(".blog");
+const home = document.querySelector(".home");
 const work = document.querySelector(".works");
 
-blog.addEventListener("click", () => {
-    window.open("../blog.html", "_self");
+home.addEventListener("click", () => {
+    window.open("../index.html", "_self");
 })
 work.addEventListener("click", () => {
     window.open("../work.html", "_self");

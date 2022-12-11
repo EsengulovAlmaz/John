@@ -10,6 +10,14 @@ body {
 
 
 /*HEADER*/
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar h1 {
+    cursor: pointer;
+}
 .navbar ul{
     display: flex;
     justify-content: flex-end;
@@ -26,104 +34,8 @@ body {
 .navbar ul li a:hover {
     color: #FF6464;
 }
-
-/*MAIN*/
-.man {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 70px 0;
-}
-.left-man {
-    width: 45%;
-}
-.left-man h1 {
-    font-weight: 700;
-    font-size: 44px;
-    color: #21243D;
-    cursor: pointer;
-}
-.left-man p {
-    font-weight: 400;
-    font-size: 16px;
-    color: #21243D;
-    cursor: pointer;
-}
-.left-man button {
-    font-weight: 500;
-    font-size: 20px;
-    color: #ffffff;
-    background: #FF6464;
-    border: 0;
-    padding: 9px 21px 17px;
-    margin-top: 38px;
-    transition: 0.5s;
-}
-.left-man button:hover {
-    background: #d41616;
-}
-.right-man {
-    padding-right: 40px;
-    cursor: pointer;
-}
-/*RECENTPOSTs*/
-.recentPosts {
-    background: #EDF7FA;
-    padding: 35px 0;
-}
-.recentPosts_title {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.recentPosts_title h2 {
-    font-weight: 400;
-    font-size: 22px;
-    color: #21243D;
-    cursor: pointer;
-}
-.recentPosts_title a {
-    font-weight: 400;
-    font-size: 16px;
-    color: #00A8CC;
-    text-decoration: none;
-    transition: 0.3s;
-}
-.recentPosts_title a:hover {
-    color: #000000;
-}
-.recentPosts_wrapper {
-    display: flex;
-    justify-content: space-between;
-}
-.recentPosts_card {
-    width: 43%;
-    background: #FFFFFF;
-    box-shadow: 0px 4px 10px rgba(187, 225, 250, 0.25);
-    border-radius: 4px;
-    padding: 24px;
-    cursor: pointer;
-}
-.recentPosts_card h2 {
-    font-weight: 700;
-    font-size: 26px;
-    color: #21243D;
-}
-.date {
-    display: flex;
-    gap: 26px;
-}
-.date p {
-    font-weight: 400;
-    font-size: 18px;
-    color: #21243D;
-}
-.recentPosts_card .text {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    color: #21243D;
-    padding-right: 60px;
+.navbar ul li .works {
+    color: red;
 }
 
 
@@ -174,8 +86,6 @@ body {
     font-size: 16px;
     color: #21243D;
 }
-
-
 
 /*footer*/
 .footer{
